@@ -1,0 +1,87 @@
+#Basic Print statement
+  print("Hello, World!")
+  output: Hello, World!)
+
+#Print Variables Values
+  name = "Suman"
+  age = 26
+  print(name,age)
+  output: Suman 26
+
+#Formatted Strings(f-strings)
+  name = "Suman"
+  age = 26
+  print(f"My name is {name} and age is {age})
+  output: My name is suman and age is 26.
+
+#String Concatenation
+  first_name = "Suman"
+  last_name = "Kumar"
+  print(first_name:+" "+last_name)
+  output: Suman Kumar
+
+#using sep parameter
+  print("Suman","Ram","Krishna",sep",")
+  output: Suman, Ram, Krishna
+
+#using end parameter
+  print("Hello",end=" ")
+  print("World!")
+  output: Hello World!
+
+#Multiline Strings
+  print("""This is a multi
+          line string")
+  output: This is a multi
+          line string
+
+#Printing escape sequences
+  print("Line1\nLine2\t Tabbed")
+  output: Line1
+          Line2 Tabbed
+
+#Printing unicode Characters
+  print("\u2604")
+  output: *
+
+#Printing Raw strings
+  print(r"C:\users\suman\documents")
+  output: C:\users\suman\documents
+  or
+  loc = r"C:\users\suman\documents")
+  print(loc)
+  output: C:\users\suman\documents
+
+#Printing with Expressions
+  print(f"Sum:{5+10},Product:{5*10}")
+  output: Sum:15 Product: 50
+
+#Printing iterables
+  items = [1,2,3]
+  print (*items)          #print(items)
+  output: 1 2 3           #output: [1,2,3]
+
+#Printing escape \ (backslash Character)
+  print("\\")
+  output: \
+
+#Printing type of variables
+  x=1
+  print(type(x))
+  output: int
+
+#Printing Converted value
+  x=1
+  print(str(x))
+  output: x #not integer but in the form of string
+
+#Printing values using input function
+  x=input("Enter the number:")
+  print(x)
+  output: Enter the number: 18
+        18
+
+
+
+
+
